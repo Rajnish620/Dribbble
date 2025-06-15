@@ -137,6 +137,23 @@ nav {
 
 
 }
+@media(max-width:1010px) {
+
+    .btns {
+        display: none;
+
+    }
+
+    #img1 {
+        display: list-item;
+    }
+
+    #signUp {
+        margin-left: 340px;
+    }
+
+
+}
 
 @media(max-width:900px) {
     #signUp {
@@ -171,6 +188,20 @@ nav {
 @media(max-width:500px) {
     #signUp {
         margin-left: 200px;
+    }
+
+    .btns {
+        display: none;
+
+    }
+
+    #img1 {
+        display: list-item;
+    }
+}
+@media(max-width:300px) {
+    #signUp {
+        margin-left: 100px;
     }
 
     .btns {
